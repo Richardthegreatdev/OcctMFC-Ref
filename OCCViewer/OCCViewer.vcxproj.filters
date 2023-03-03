@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Topology">
+      <UniqueIdentifier>{e452f042-cf93-40a7-9c56-3287f1f51610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{67866b2e-adba-45ae-aa5b-0c9b4b8b5005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Viewer">
+      <UniqueIdentifier>{4c3c39c2-95e1-4b32-bcfe-88dde5c5e23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AIS">
+      <UniqueIdentifier>{fc60f9ad-4a55-49ae-a28d-ad2d715633e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AIS">
+      <UniqueIdentifier>{c10b6cc6-4fef-423b-97e3-b9a6226c80c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OCC">
+      <UniqueIdentifier>{b6394a2d-73d6-45d3-af37-cd728e28b480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OCC">
+      <UniqueIdentifier>{fe162aa8-b7ce-4541-864d-c61d72453718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OCC\Parametric">
+      <UniqueIdentifier>{8a26105e-4237-4d66-bff2-42fdbb6bcefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OCC\Parametric">
+      <UniqueIdentifier>{f9abd880-431e-4d50-8c2a-c330fb0e3b7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OCCViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OCCViewerDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OCCViewerView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Occheaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AISCurve.h">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="AISSurface.h">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="OccFunctions.h">
+      <Filter>Header Files\OCC</Filter>
+    </ClInclude>
+    <ClInclude Include="OCCSurf.h">
+      <Filter>Header Files\OCC</Filter>
+    </ClInclude>
+    <ClInclude Include="AISMesh.h">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="OCAFApp.h">
+      <Filter>Header Files\OCC</Filter>
+    </ClInclude>
+    <ClInclude Include="ParametricDoc.h">
+      <Filter>Header Files\OCC\Parametric</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlangeDesign.h">
+      <Filter>Header Files\OCC\Parametric</Filter>
+    </ClInclude>
+    <ClInclude Include="FlangeDlg.h">
+      <Filter>Header Files\OCC\Parametric</Filter>
+    </ClInclude>
+    <ClInclude Include="NailDesign.h">
+      <Filter>Header Files\OCC\Parametric</Filter>
+    </ClInclude>
+    <ClInclude Include="NailDlg.h">
+      <Filter>Header Files\OCC\Parametric</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OCCViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OCCViewerDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OCCViewerView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayFunctions.cpp">
+      <Filter>Source Files\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="AISCurve.cpp">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="AISSurface.cpp">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="OccFunctions.cpp">
+      <Filter>Source Files\OCC</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionFunctions.cpp">
+      <Filter>Source Files\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="DatumFunctions.cpp">
+      <Filter>Source Files\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="3DModeling.cpp">
+      <Filter>Source Files\Topology</Filter>
+    </ClCompile>
+    <ClCompile Include="OCCSurf.cpp">
+      <Filter>Source Files\OCC</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfaceModeling.cpp">
+      <Filter>Source Files\Topology</Filter>
+    </ClCompile>
+    <ClCompile Include="Clipping.cpp">
+      <Filter>Source Files\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="AISMesh.cpp">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="OCAFApp.cpp">
+      <Filter>Source Files\OCC</Filter>
+    </ClCompile>
+    <ClCompile Include="OCAFDoc.cpp">
+      <Filter>Source Files\OCC</Filter>
+    </ClCompile>
+    <ClCompile Include="OCAFView.cpp">
+      <Filter>Source Files\OCC</Filter>
+    </ClCompile>
+    <ClCompile Include="Dimensions.cpp">
+      <Filter>Source Files\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="ParametricDoc.cpp">
+      <Filter>Source Files\OCC\Parametric</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportExport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlangeDesign.cpp">
+      <Filter>Source Files\OCC\Parametric</Filter>
+    </ClCompile>
+    <ClCompile Include="FlangeDlg.cpp">
+      <Filter>Source Files\OCC\Parametric</Filter>
+    </ClCompile>
+    <ClCompile Include="OCCTree.cpp">
+      <Filter>Source Files\OCC</Filter>
+    </ClCompile>
+    <ClCompile Include="NailDesign.cpp">
+      <Filter>Source Files\OCC\Parametric</Filter>
+    </ClCompile>
+    <ClCompile Include="NailDlg.cpp">
+      <Filter>Source Files\OCC\Parametric</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OCCViewer.reg" />
+    <None Include="res\OCCViewer.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OCCViewer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\userimages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\OCCViewerDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\OCCViewer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\imgs\hatch_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hatch_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Flange.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\imgs\Nail.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

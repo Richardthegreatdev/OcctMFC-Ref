@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ParametricDoc">
+    <Position X="3.5" Y="1.25" Width="2" />
+    <InheritanceLine Type="OCAFDoc" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.188" Y="1.191" />
+        <Point X="2.188" Y="3.25" />
+        <Point X="3.5" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAACACABAAAgKAAAgAEAACAgAAAAAAAAQAAAAJA=</HashCode>
+      <FileName>ParametricDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCAFDoc" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAEOAAAACAAAAMCCEAAACAgAAADAQABAACAAQA=</HashCode>
+      <FileName>OCAFApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

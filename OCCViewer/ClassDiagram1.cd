@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FlangeDriver">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="TFunction_Driver" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="1.691" />
+        <Point X="4.5" Y="2.812" />
+        <Point X="5.5" Y="2.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAQAAAAAgBAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlangeDesign.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flange">
+    <Position X="0.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAABIAAACAAAA=</HashCode>
+      <FileName>FlangeDesign.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TFunction_Driver" Collapsed="true">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAEACAAAQAAAAAAAAACAAAABAAIAACAAAAAAA=</HashCode>
+      <FileName>E:\IngentaCal\Projects\Prog\Libraries\OpenCASCADE-7.5.0-vc14-64\opencascade-7.5.0\inc\TFunction_Driver.hxx</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
